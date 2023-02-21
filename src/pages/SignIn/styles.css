@@ -1,0 +1,52 @@
+.signin {
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 494px;
+    height: 475px;
+    padding: 2rem;
+
+    color: #fff;
+    background-color: #44444D;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+
+    gap: .7rem;
+}
+
+.inputs input {
+    width: 300px;
+    height: 48px;
+
+    text-indent: 1rem;
+    color: #fff;
+    background-color: #2E2E36;
+    border: none;
+}
+
+.inputs input::placeholder {
+    color: #fff;
+}
+
+form a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+
+    width: 300px;
+    height: 48px;
+
+    color: #fff;
+    background-color: #DA0175;
+}

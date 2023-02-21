@@ -1,0 +1,38 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+    text-decoration: none;
+
+    width: 200px;
+    padding: 1rem;
+    gap: 1rem;
+
+    transition: 0.35s;
+
+    border: 1px solid #fff;
+    background-color: #DA0175;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+
+    border-radius: 50%;
+
+    padding: 3px;
+    background-color: #fff;
+}
+
+.card p {
+    font-weight: 700;
+
+    color: #FFFFFF;
+}
